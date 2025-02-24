@@ -13,7 +13,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# zkk123179/study-notes.git 替换为自己的用户名和对应的仓库名
+# zkk123179/study-notes.git 替换为自己的用户名和对应的仓库
 # 意思为将master构建后的代码合并到gh-pages分支上，然后在gh-pages分支上部署~
 git push -f git@github.com:zkk123179/study-notes.git master:gh-pages
 
